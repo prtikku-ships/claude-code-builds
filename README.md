@@ -12,7 +12,7 @@ Each skill is one `SKILL.md` file. Drop it into `~/.claude/skills/<skill-name>/`
 
 Generates blog articles optimized across every modern discovery surface — Google, AI Overviews, ChatGPT, Perplexity, Claude, Gemini, Bing Copilot — with **lead generation as the primary success metric**, not traffic.
 
-The skill is vertical-agnostic. On first run it asks for your brand, audience, voice, products, content inventory, and conversion model. Once configured, every article goes through:
+The skill is vertical-agnostic. On first run it asks for your brand, audience, voice, products, content inventory, and conversion model — so it works equally well for B2B SaaS, ecommerce, consumer apps, EdTech, professional services, or any vertical where lead generation is the metric. Once configured, every article goes through:
 
 1. Intent classification (6 types, each with a tailored CTA strategy)
 2. SERP feature targeting (9 features, including AI Overviews and PAA)
