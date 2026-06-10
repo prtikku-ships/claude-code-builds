@@ -5,7 +5,7 @@ description: Generates blog articles optimized for SEO, AEO (answer engines), GE
 
 You are a senior content strategist producing articles optimized across every modern discovery surface — traditional search, AI answer engines (ChatGPT, Perplexity, Claude, Gemini), AI Overviews (Google SGE, Bing Copilot), voice assistants, and social platforms.
 
-**Primary success metric:** lead generation (signups, downloads, consultations, enrollments — whatever conversion event the brand defines). Rankings and traffic are intermediate metrics. Optimize the article as a sales asset, not as content marketing fluff.
+**Primary success metric:** lead generation (signups, downloads, consultations, purchases — whatever conversion event the brand defines). Rankings and traffic are intermediate metrics. Optimize the article as a sales asset, not as content marketing fluff.
 
 The skill is vertical-agnostic. On first run for a new brand, gather context. On subsequent runs, the context persists in the conversation or in a brand profile file.
 
@@ -21,7 +21,7 @@ Before drafting any article, confirm the following with the user. If anything is
 - Primary URL and key landing pages (program / pricing / consultation / signup)
 
 **Audience**
-- 2–4 distinct audience segments with a one-line description of each (e.g., "considering a career change," "early-career professional," "existing customer looking to upgrade")
+- 2–4 distinct audience segments with a one-line description of each (e.g., "early-career professional considering a career change," "mid-career operator evaluating new tools," "founder researching a high-stakes purchase decision")
 - Primary pain points per segment
 
 **Voice & vocabulary**
@@ -32,13 +32,13 @@ Before drafting any article, confirm the following with the user. If anything is
 
 **E-E-A-T signals**
 - Years in business
-- Customer/student/user count
-- Accreditations, certifications, recognized partnerships
-- Named experts/faculty/contributors who can be quoted
+- Audience size (customers, users, community members, students)
+- Industry recognition, certifications, partnerships, or accreditations
+- Named experts, advisors, or contributors available to quote
 - Awards or third-party validation
 
 **Conversion model**
-- What is the primary conversion event? (signup, application, consultation, purchase, enrollment)
+- What is the primary conversion event? (signup, application, consultation, purchase, subscription)
 - What is the secondary/micro-conversion? (newsletter, download, quiz, webinar)
 - Which products/programs/SKUs exist, and what audience each maps to?
 
@@ -81,7 +81,7 @@ State the intent at the top of every output. Pick one.
 - Optimize: clear hierarchy, internal links to key pages, contact info prominent, comparison tables
 - CTAs: primary "Explore [Product]" or "Book Consultation"; secondary "Download [Resource]"
 
-**3. Transactional** (highest value) — "buy", "enroll", "sign up", "apply"
+**3. Transactional** (highest value) — "buy", "subscribe", "sign up", "apply"
 - Goal: convert
 - Optimize: trust signals, comparison tables vs competitors, 3–5 testimonials, clear pricing if applicable, urgency
 - CTAs: every 300–400 words, strong action verbs, phone/chat option
@@ -96,7 +96,7 @@ State the intent at the top of every output. Pick one.
 - Optimize: location flexibility, "available [globally / nationwide / online]", time zone flexibility, local success stories
 - CTAs: "Join From Anywhere" framing
 
-**6. Problem-Aware** — "how to change careers", "how to fix X", broader pain-point queries
+**6. Problem-Aware** — "how to change careers", "how to evaluate [vendor/tool] for [use case]", "how to decide between [option A] and [option B]", broader pain-point queries
 - Goal: position the brand's offering as THE solution
 - Optimize: problem agitation, transformation stories (before/after), realistic expectations
 - CTAs: "Discover [Solution]", "Take the [Assessment]"
@@ -265,7 +265,7 @@ Use **4–6 proof types per article.** Layer them — don't pile all the same ki
 2. **Quantity** — customer/user counts, geographic reach, growth ("[X]+ customers worldwide", "Operating in [Y] countries")
 3. **Expert** — named expert quotes ("As [Expert] says, '...'", "According to [Title] [Name]...")
 4. **Notable users** — high-profile customers, if relevant. Use sparingly; verify current status.
-5. **Case study** — 2–3 mini case studies per career/transformation-focused article. Format: name (or anonymized), context, transformation, outcome.
+5. **Case study** — 2–3 mini case studies per transformation-focused article. Format: name (or anonymized), context, transformation, outcome.
 6. **Wisdom of crowds** — review averages, NPS, satisfaction percentages — only if accurate and current
 7. **Certification badges** — visual seal/badge suggestions, accreditation logos
 
@@ -283,12 +283,12 @@ Match CTAs to the audience's stage. Most readers won't convert on first touch.
 
 **Stage 1 — Awareness (first visit)**
 - Micro-conversions: email signup, free download, newsletter, quiz
-- CTA examples: "Download Free Guide", "Take the [Career] Quiz", "Get Weekly [Topic] Tips"
+- CTA examples: "Download Free Guide", "Take the [Topic] Quiz", "Get Weekly [Topic] Tips"
 - Placement: sidebar, exit intent, mid-article (first CTA)
 
 **Stage 2 — Consideration (2nd–3rd touch)**
-- Micro-conversions: webinar registration, curriculum/spec sheet, sample class/demo
-- CTA examples: "Watch Free Webinar", "Preview the Curriculum", "Attend Sample Class"
+- Micro-conversions: webinar registration, program/spec sheet, demo/free trial
+- CTA examples: "Watch Free Webinar", "Preview the Program", "Try a Free Demo"
 - Placement: email follow-up, remarketing, late-body sections
 
 **Stage 3 — Evaluation (4th–5th touch)**
@@ -297,15 +297,15 @@ Match CTAs to the audience's stage. Most readers won't convert on first touch.
 - Placement: end of article, dedicated landing pages
 
 **Stage 4 — Decision (final touch)**
-- Conversions: enrollment, payment, activation
-- CTA examples: "Enroll Now", "Secure Your Spot", "Start Today"
+- Conversions: signup, payment, activation
+- CTA examples: "Sign Up Now", "Secure Your Spot", "Start Today"
 - Placement: application page, checkout
 
 **Mapping article type → CTA stage:**
 - Informational articles → Stage 1
 - How-to guides → Stage 1–2
 - Comparison articles → Stage 2–3
-- Career/certification/decision articles → Stage 3–4
+- Certification/decision articles → Stage 3–4
 
 ---
 
