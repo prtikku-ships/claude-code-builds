@@ -372,3 +372,17 @@ This skill is designed to keep getting better. Three ways to extend it without f
 Without these the skill still works; with them, the output is substantially sharper. Make this explicit when the user is missing data.
 
 **Improvement loop:** After publishing 3–5 articles, the user should report back what ranked, what converted, and what didn't. Use that data to refine the brand profile (voice, off-limits topics, audience descriptions) and the vertical patterns file. The skill itself stays generic; the per-brand files get smarter over time.
+
+---
+
+## What I learned shipping this
+
+This skill has been running in production for several months at a consumer EdTech in health and wellness coaching, where I've used it as the sole marketing operator. The architecture is vertical-agnostic, but my real-world iteration notes are EdTech-flavored. Here's what I've learned.
+
+**What I tried first that didn't work.** The first version hallucinated product specifics — trial period length, course duration, pricing details. Had to load full product descriptions and stats as reference so the skill could pull facts instead of inventing them. Internal linking didn't check for 404s, so drafts referenced dead URLs. Brand voice was close but leaked jargon that wasn't on-brand. Took a few rounds of restrictions to clean up.
+
+**What changed in v2.** Added detailed brand guidelines, complete product catalog with specs, and an exhaustive "who we're not" list — competitors, off-limits topics, claims we don't make. Broke the workflow into discrete steps (intent classification, SERP targeting, competitor gap analysis, clustering, draft, output package) so each stage produces an inspectable artifact and the human review gate happens per-stage, not just at the end.
+
+**What surprised me running this in practice.** The sales-objection articles got picked up by AI Overviews first — and those were the exact questions our customers were asking. Strong signal that addressing objections as content shortens the buying decision window. The course team was also pleasantly surprised we could produce assets in roughly 1/10th the time, grounded in real data and known objections instead of guessed angles.
+
+**What I'd improve next.** Three things on the roadmap. (1) GSC API integration to eliminate the manual CSV step. (2) A conversion outcome eval loop pulling lead volume from Google Analytics 4 (Data API) to close the feedback loop between article and outcome. (3) A trend analyzer that pulls from GSC, Google Trends (pytrends), and Reddit to surface rising queries before they peak. All three are technically achievable today and would tighten the loop from publish to measured outcome.
