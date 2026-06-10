@@ -377,7 +377,7 @@ Without these the skill still works; with them, the output is substantially shar
 
 ## What I learned shipping this
 
-This skill has been running in production for several months at a consumer EdTech in health and wellness coaching, where I've used it as the sole marketing operator. The architecture is vertical-agnostic, but my real-world iteration notes are EdTech-flavored. Here's what I've learned.
+This skill has been running in production for several months at a consumer EdTech, where I've used it as the sole marketing operator. The architecture is vertical-agnostic, but my real-world iteration notes are EdTech-flavored. Here's what I've learned.
 
 **What I tried first that didn't work.** The first version hallucinated product specifics — trial period length, course duration, pricing details. Had to load full product descriptions and stats as reference so the skill could pull facts instead of inventing them. Internal linking didn't check for 404s, so drafts referenced dead URLs. Brand voice was close but leaked jargon that wasn't on-brand. Took a few rounds of restrictions to clean up.
 
