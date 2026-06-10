@@ -34,7 +34,7 @@ Post as a **threaded** Slack conversation, NOT one giant message:
 - One sharp bullet — a stat, a data point, or an observation about what's working on LinkedIn in the brand's space right now. Make posting feel like a smart business move, not a chore.
 
 *What's happening on LinkedIn:*
-- Notable posts from the brand's customers/alumni or industry professionals — what's getting traction
+- Notable posts from the brand's customers/community members or industry professionals — what's getting traction
 - High-value people posting about the brand's topics — potential collab or outreach targets (name, title, post topic, why they fit)
 - Conversations the brand should engage with
 - Content gaps the brand could fill
@@ -75,7 +75,7 @@ Post as a **threaded** Slack conversation, NOT one giant message:
 
 **Step 1 — Quick crisis check:** Search for any brand-specific crisis terms configured in the Workspace Config. Only flag if there's something new.
 
-**Step 2 — LinkedIn deep dive:** Search for the brand's customer/alumni posts, industry discussions, conversations relevant to the brand's offerings. Identify high-value accounts (5K+ followers) posting about aligned topics — potential collabs or outreach targets.
+**Step 2 — LinkedIn deep dive:** Search for the brand's customer/community member posts, industry discussions, conversations relevant to the brand's offerings. Identify high-value accounts (5K+ followers) posting about aligned topics — potential collabs or outreach targets.
 
 **Step 3 — Reddit:** Search for brand mentions, relevant subreddit discussions, competitor mentions, customer-journey threads.
 
@@ -118,7 +118,7 @@ This is the only section that needs updating when you set this up for a new bran
 
 **Marketing calendar:**
 Drop the current month's calendar inline here, or reference a file the user updates monthly. Include:
-- Promo phase (e.g., "Early enrollment," "Countdown," "Open enrollment")
+- Promo phase (e.g., "Early access," "Countdown," "On sale")
 - Pricing/offer for the period (if relevant)
 - Email/SMS/ad schedule by date
 - Any bonuses, deadlines, or time-sensitive levers
