@@ -59,6 +59,23 @@ Post as a **threaded** Slack conversation, NOT one giant message:
 
 ---
 
+## OPTIONAL XQUIK SIGNAL SOURCE
+
+Use Xquik when the workspace has `XQUIK_API_KEY` set or a Xquik MCP server configured. Treat it as an optional source for X account, keyword, hashtag, and competitor monitoring.
+
+Use it for:
+- Brand account posts and replies
+- Competitor account posts
+- Keyword and hashtag searches
+- Quote, reply, repost, and engagement context when available
+- Ongoing monitors or webhooks only after explicit approval
+
+Do not ask for personal login material. Do not run publishing, follow, unfollow, DM, delete, or profile-update actions from this skill.
+
+If Xquik is not configured, continue with the existing web and platform search workflow. Do not block the daily briefing.
+
+---
+
 ## PRIORITY ORDER FOR THE BRIEFING
 
 1. **Content ideas & growth** — primary value. Be creative, specific, and tied to what's trending. Think like a growth-minded social strategist.
@@ -73,21 +90,23 @@ Post as a **threaded** Slack conversation, NOT one giant message:
 
 ## DAILY TASK: Search and Compile
 
-**Step 1 — Quick crisis check:** Search for any brand-specific crisis terms configured in the Workspace Config. Only flag if there's something new.
+**Step 1. Quick crisis check:** Search for any brand-specific crisis terms configured in the Workspace Config. Only flag if there's something new.
 
-**Step 2 — LinkedIn deep dive:** Search for the brand's customer/community member posts, industry discussions, conversations relevant to the brand's offerings. Identify high-value accounts (5K+ followers) posting about aligned topics — potential collabs or outreach targets.
+**Step 2. X signal pass if Xquik is configured:** Pull the configured X accounts, keywords, hashtags, and competitor handles for the last 24 hours. Capture post URLs, timestamps, short excerpts, engagement counts when available, and why each signal matters. Use this pass to feed content ideas, engagement opportunities, competitor watch, crisis checks, and quick pulse counts. Skip this step if Xquik is not configured.
 
-**Step 3 — Reddit:** Search for brand mentions, relevant subreddit discussions, competitor mentions, customer-journey threads.
+**Step 3. LinkedIn scan:** Search for the brand's customer/community member posts, industry discussions, conversations relevant to the brand's offerings. Identify high-value accounts (5K+ followers) posting about aligned topics - potential collabs or outreach targets.
 
-**Step 4 — Instagram, Facebook:** Search for brand mentions, comments on the brand's own posts, competitor activity, relevant discussions.
+**Step 4. Reddit:** Search for brand mentions, relevant subreddit discussions, competitor mentions, customer-journey threads.
 
-**Step 5 — TikTok scan:** Search for trending formats and sounds in the brand's space. What's working for creators. What the brand could adapt.
+**Step 5. Instagram, Facebook:** Search for brand mentions, comments on the brand's own posts, competitor activity, relevant discussions.
 
-**Step 6 — Trending topics:** Industry trends, cultural moments, holidays that align with the brand's current promo phase.
+**Step 6. TikTok scan:** Search for trending formats and sounds in the brand's space. What's working for creators. What the brand could adapt.
 
-**Step 7 — Content ideation:** *The core deliverable.* Fresh ideas that align with the calendar phase, fill gaps, respond to audience questions, and capitalize on trends. Push for variety — content shouldn't feel repetitive. Look at what category leaders do well. Think about formats: Reels, carousels, Lives, Stories, polls, UGC campaigns, TikToks.
+**Step 7. Trending topics:** Industry trends, cultural moments, holidays that align with the brand's current promo phase.
 
-**Step 8 — YouTube:** Content that should be cross-posted or adapted for YouTube. Be persistent — if it's a known gap, keep flagging it.
+**Step 8. Content ideation:** *The core deliverable.* Fresh ideas that align with the calendar phase, fill gaps, respond to audience questions, and capitalize on trends. Push for variety - content shouldn't feel repetitive. Look at what category leaders do well. Think about formats: Reels, carousels, Lives, Stories, polls, UGC campaigns, TikToks.
+
+**Step 9. YouTube:** Content that should be cross-posted or adapted for YouTube. Be persistent - if it's a known gap, keep flagging it.
 
 ---
 
@@ -130,6 +149,7 @@ Drop the current month's calendar inline here, or reference a file the user upda
 
 **Brand social accounts to monitor:**
 - LinkedIn: `[URL]`
+- X: `[handles, keywords, hashtags, or "not configured"]`
 - Facebook: `[URL]`
 - Instagram: `[URL]`
 - Reddit: `[handle and active subreddits]`
